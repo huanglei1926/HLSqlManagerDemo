@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF093D25222E6EAC00C199EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D24222E6EAC00C199EA /* AppDelegate.m */; };
+		BF093D28222E6EAC00C199EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D27222E6EAC00C199EA /* ViewController.m */; };
+		BF093D2B222E6EAC00C199EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF093D29222E6EAC00C199EA /* Main.storyboard */; };
+		BF093D2D222E6EB000C199EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF093D2C222E6EB000C199EA /* Assets.xcassets */; };
+		BF093D30222E6EB000C199EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF093D2E222E6EB000C199EA /* LaunchScreen.storyboard */; };
+		BF093D33222E6EB000C199EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D32222E6EB000C199EA /* main.m */; };
+		BF093D3D222E6EB000C199EA /* HLSqlManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D3C222E6EB000C199EA /* HLSqlManagerDemoTests.m */; };
+		BF093D48222E6EB000C199EA /* HLSqlManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D47222E6EB000C199EA /* HLSqlManagerDemoUITests.m */; };
+		BF093D58222E6EFE00C199EA /* HLDBSqlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D57222E6EFE00C199EA /* HLDBSqlManager.m */; };
+		BF093D5B222E712800C199EA /* HLSqlTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D5A222E712800C199EA /* HLSqlTableManager.m */; };
+		BF093D62222E71D200C199EA /* HLTestModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D60222E71D200C199EA /* HLTestModel1.m */; };
+		BF093D65222E791800C199EA /* HLTestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D64222E791800C199EA /* HLTestModel2.m */; };
+		BF093D68222E791F00C199EA /* HLTestModel3.m in Sources */ = {isa = PBXBuildFile; fileRef = BF093D67222E791F00C199EA /* HLTestModel3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF093D39222E6EB000C199EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF093D18222E6EAC00C199EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF093D1F222E6EAC00C199EA;
+			remoteInfo = HLSqlManagerDemo;
+		};
+		BF093D44222E6EB000C199EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF093D18222E6EAC00C199EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF093D1F222E6EAC00C199EA;
+			remoteInfo = HLSqlManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF093D20222E6EAC00C199EA /* HLSqlManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSqlManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF093D23222E6EAC00C199EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF093D24222E6EAC00C199EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF093D26222E6EAC00C199EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF093D27222E6EAC00C199EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF093D2A222E6EAC00C199EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF093D2C222E6EB000C199EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF093D2F222E6EB000C199EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF093D31222E6EB000C199EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF093D32222E6EB000C199EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF093D38222E6EB000C199EA /* HLSqlManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSqlManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF093D3C222E6EB000C199EA /* HLSqlManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSqlManagerDemoTests.m; sourceTree = "<group>"; };
+		BF093D3E222E6EB000C199EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF093D43222E6EB000C199EA /* HLSqlManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSqlManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF093D47222E6EB000C199EA /* HLSqlManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSqlManagerDemoUITests.m; sourceTree = "<group>"; };
+		BF093D49222E6EB000C199EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF093D56222E6EFE00C199EA /* HLDBSqlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLDBSqlManager.h; sourceTree = "<group>"; };
+		BF093D57222E6EFE00C199EA /* HLDBSqlManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLDBSqlManager.m; sourceTree = "<group>"; };
+		BF093D59222E712800C199EA /* HLSqlTableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSqlTableManager.h; sourceTree = "<group>"; };
+		BF093D5A222E712800C199EA /* HLSqlTableManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSqlTableManager.m; sourceTree = "<group>"; };
+		BF093D60222E71D200C199EA /* HLTestModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTestModel1.m; sourceTree = "<group>"; };
+		BF093D61222E71D200C199EA /* HLTestModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTestModel1.h; sourceTree = "<group>"; };
+		BF093D63222E791800C199EA /* HLTestModel2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTestModel2.h; sourceTree = "<group>"; };
+		BF093D64222E791800C199EA /* HLTestModel2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTestModel2.m; sourceTree = "<group>"; };
+		BF093D66222E791F00C199EA /* HLTestModel3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTestModel3.h; sourceTree = "<group>"; };
+		BF093D67222E791F00C199EA /* HLTestModel3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTestModel3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF093D1D222E6EAC00C199EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF093D35222E6EB000C199EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF093D40222E6EB000C199EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF093D17222E6EAC00C199EA = {
+			isa = PBXGroup;
+			children = (
+				BF093D22222E6EAC00C199EA /* HLSqlManagerDemo */,
+				BF093D3B222E6EB000C199EA /* HLSqlManagerDemoTests */,
+				BF093D46222E6EB000C199EA /* HLSqlManagerDemoUITests */,
+				BF093D21222E6EAC00C199EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF093D21222E6EAC00C199EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF093D20222E6EAC00C199EA /* HLSqlManagerDemo.app */,
+				BF093D38222E6EB000C199EA /* HLSqlManagerDemoTests.xctest */,
+				BF093D43222E6EB000C199EA /* HLSqlManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF093D22222E6EAC00C199EA /* HLSqlManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF093D5F222E71D200C199EA /* TestModel */,
+				BF093D55222E6EDA00C199EA /* HLSqlManager */,
+				BF093D23222E6EAC00C199EA /* AppDelegate.h */,
+				BF093D24222E6EAC00C199EA /* AppDelegate.m */,
+				BF093D26222E6EAC00C199EA /* ViewController.h */,
+				BF093D27222E6EAC00C199EA /* ViewController.m */,
+				BF093D29222E6EAC00C199EA /* Main.storyboard */,
+				BF093D2C222E6EB000C199EA /* Assets.xcassets */,
+				BF093D2E222E6EB000C199EA /* LaunchScreen.storyboard */,
+				BF093D31222E6EB000C199EA /* Info.plist */,
+				BF093D32222E6EB000C199EA /* main.m */,
+			);
+			path = HLSqlManagerDemo;
+			sourceTree = "<group>";
+		};
+		BF093D3B222E6EB000C199EA /* HLSqlManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF093D3C222E6EB000C199EA /* HLSqlManagerDemoTests.m */,
+				BF093D3E222E6EB000C199EA /* Info.plist */,
+			);
+			path = HLSqlManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		BF093D46222E6EB000C199EA /* HLSqlManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF093D47222E6EB000C199EA /* HLSqlManagerDemoUITests.m */,
+				BF093D49222E6EB000C199EA /* Info.plist */,
+			);
+			path = HLSqlManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		BF093D55222E6EDA00C199EA /* HLSqlManager */ = {
+			isa = PBXGroup;
+			children = (
+				BF093D56222E6EFE00C199EA /* HLDBSqlManager.h */,
+				BF093D57222E6EFE00C199EA /* HLDBSqlManager.m */,
+				BF093D59222E712800C199EA /* HLSqlTableManager.h */,
+				BF093D5A222E712800C199EA /* HLSqlTableManager.m */,
+			);
+			path = HLSqlManager;
+			sourceTree = "<group>";
+		};
+		BF093D5F222E71D200C199EA /* TestModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF093D61222E71D200C199EA /* HLTestModel1.h */,
+				BF093D60222E71D200C199EA /* HLTestModel1.m */,
+				BF093D63222E791800C199EA /* HLTestModel2.h */,
+				BF093D64222E791800C199EA /* HLTestModel2.m */,
+				BF093D66222E791F00C199EA /* HLTestModel3.h */,
+				BF093D67222E791F00C199EA /* HLTestModel3.m */,
+			);
+			path = TestModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF093D1F222E6EAC00C199EA /* HLSqlManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF093D4C222E6EB000C199EA /* Build configuration list for PBXNativeTarget "HLSqlManagerDemo" */;
+			buildPhases = (
+				BF093D1C222E6EAC00C199EA /* Sources */,
+				BF093D1D222E6EAC00C199EA /* Frameworks */,
+				BF093D1E222E6EAC00C199EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLSqlManagerDemo;
+			productName = HLSqlManagerDemo;
+			productReference = BF093D20222E6EAC00C199EA /* HLSqlManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF093D37222E6EB000C199EA /* HLSqlManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF093D4F222E6EB000C199EA /* Build configuration list for PBXNativeTarget "HLSqlManagerDemoTests" */;
+			buildPhases = (
+				BF093D34222E6EB000C199EA /* Sources */,
+				BF093D35222E6EB000C199EA /* Frameworks */,
+				BF093D36222E6EB000C199EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF093D3A222E6EB000C199EA /* PBXTargetDependency */,
+			);
+			name = HLSqlManagerDemoTests;
+			productName = HLSqlManagerDemoTests;
+			productReference = BF093D38222E6EB000C199EA /* HLSqlManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF093D42222E6EB000C199EA /* HLSqlManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF093D52222E6EB000C199EA /* Build configuration list for PBXNativeTarget "HLSqlManagerDemoUITests" */;
+			buildPhases = (
+				BF093D3F222E6EB000C199EA /* Sources */,
+				BF093D40222E6EB000C199EA /* Frameworks */,
+				BF093D41222E6EB000C199EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF093D45222E6EB000C199EA /* PBXTargetDependency */,
+			);
+			name = HLSqlManagerDemoUITests;
+			productName = HLSqlManagerDemoUITests;
+			productReference = BF093D43222E6EB000C199EA /* HLSqlManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF093D18222E6EAC00C199EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Len;
+				TargetAttributes = {
+					BF093D1F222E6EAC00C199EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF093D37222E6EB000C199EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF093D1F222E6EAC00C199EA;
+					};
+					BF093D42222E6EB000C199EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF093D1F222E6EAC00C199EA;
+					};
+				};
+			};
+			buildConfigurationList = BF093D1B222E6EAC00C199EA /* Build configuration list for PBXProject "HLSqlManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF093D17222E6EAC00C199EA;
+			productRefGroup = BF093D21222E6EAC00C199EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF093D1F222E6EAC00C199EA /* HLSqlManagerDemo */,
+				BF093D37222E6EB000C199EA /* HLSqlManagerDemoTests */,
+				BF093D42222E6EB000C199EA /* HLSqlManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF093D1E222E6EAC00C199EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF093D30222E6EB000C199EA /* LaunchScreen.storyboard in Resources */,
+				BF093D2D222E6EB000C199EA /* Assets.xcassets in Resources */,
+				BF093D2B222E6EAC00C199EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF093D36222E6EB000C199EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF093D41222E6EB000C199EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF093D1C222E6EAC00C199EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF093D58222E6EFE00C199EA /* HLDBSqlManager.m in Sources */,
+				BF093D68222E791F00C199EA /* HLTestModel3.m in Sources */,
+				BF093D28222E6EAC00C199EA /* ViewController.m in Sources */,
+				BF093D33222E6EB000C199EA /* main.m in Sources */,
+				BF093D25222E6EAC00C199EA /* AppDelegate.m in Sources */,
+				BF093D65222E791800C199EA /* HLTestModel2.m in Sources */,
+				BF093D5B222E712800C199EA /* HLSqlTableManager.m in Sources */,
+				BF093D62222E71D200C199EA /* HLTestModel1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF093D34222E6EB000C199EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF093D3D222E6EB000C199EA /* HLSqlManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF093D3F222E6EB000C199EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF093D48222E6EB000C199EA /* HLSqlManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF093D3A222E6EB000C199EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF093D1F222E6EAC00C199EA /* HLSqlManagerDemo */;
+			targetProxy = BF093D39222E6EB000C199EA /* PBXContainerItemProxy */;
+		};
+		BF093D45222E6EB000C199EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF093D1F222E6EAC00C199EA /* HLSqlManagerDemo */;
+			targetProxy = BF093D44222E6EB000C199EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF093D29222E6EAC00C199EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF093D2A222E6EAC00C199EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF093D2E222E6EB000C199EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF093D2F222E6EB000C199EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF093D4A222E6EB000C199EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF093D4B222E6EB000C199EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF093D4D222E6EB000C199EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLSqlManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLSqlManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF093D4E222E6EB000C199EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLSqlManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLSqlManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF093D50222E6EB000C199EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLSqlManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLSqlManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLSqlManagerDemo.app/HLSqlManagerDemo";
+			};
+			name = Debug;
+		};
+		BF093D51222E6EB000C199EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLSqlManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLSqlManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLSqlManagerDemo.app/HLSqlManagerDemo";
+			};
+			name = Release;
+		};
+		BF093D53222E6EB000C199EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLSqlManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLSqlManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLSqlManagerDemo;
+			};
+			name = Debug;
+		};
+		BF093D54222E6EB000C199EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLSqlManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLSqlManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLSqlManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF093D1B222E6EAC00C199EA /* Build configuration list for PBXProject "HLSqlManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF093D4A222E6EB000C199EA /* Debug */,
+				BF093D4B222E6EB000C199EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF093D4C222E6EB000C199EA /* Build configuration list for PBXNativeTarget "HLSqlManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF093D4D222E6EB000C199EA /* Debug */,
+				BF093D4E222E6EB000C199EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF093D4F222E6EB000C199EA /* Build configuration list for PBXNativeTarget "HLSqlManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF093D50222E6EB000C199EA /* Debug */,
+				BF093D51222E6EB000C199EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF093D52222E6EB000C199EA /* Build configuration list for PBXNativeTarget "HLSqlManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF093D53222E6EB000C199EA /* Debug */,
+				BF093D54222E6EB000C199EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF093D18222E6EAC00C199EA /* Project object */;
+}
